@@ -1,0 +1,12 @@
+option('perf', type: 'feature', value: 'auto',
+       description: 'perf support (Linux only)')
+option('openssl', type: 'feature', value: 'auto',
+       description: 'OpenSSL support (Linux only)')
+option('dev-mem-access', type: 'boolean', value: false,
+       description: 'enable /dev/mem access')
+option('memoptest', type: 'boolean', value: false,
+       description: 'build memoptest')
+option('dashboardtest', type: 'boolean', value: false,
+       description: 'build dashboardtest')
+option('examples', type: 'boolean', value: false,
+       description: 'build c examples')
